@@ -1,0 +1,19 @@
+.SectionContainer{
+    overflow: hidden;
+    
+    position: absolute;
+    top: 9%;
+    left: 20%;
+    right:0;
+    bottom: 0;
+    width:80%; 
+    height: 91%;
+    display: flex;
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* filter: blur(10px); */
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    color: aliceblue;
+}

@@ -1,0 +1,82 @@
+.navbarContainer{
+    /* position: absolute; */
+    /* position: relative; */
+    display: flex;
+   position: absolute;
+   height: 9%;
+   background-color: #000000;
+    width: 80%;
+    top: 0;
+    left: 20%;
+    bottom: 0;  
+    right: 0;
+    z-index: 1;
+    color: aliceblue;
+    align-items: center;
+
+
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 660;
+    background-color: rgba(225, 225, 225, 0.9);
+    
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    gap:10px    
+}
+
+.btn{
+    background: none;
+    color: #fff;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    color: rgba(225, 225, 225, 0.7);
+}
+
+
+
+button:hover{
+    background-color: rgba(225, 225, 225, 0.5);
+    color: #fff;
+    border: 1px solid #fff;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.faLeft:hover{
+    color: #fff;
+    transform: scale(1.4);
+    transition: all 0.2s ease-in-out;
+}
+.faRight:hover{
+    color: #fff;
+    transform: scale(1.4);
+    transition: all 0.2s ease-in-out;
+}
